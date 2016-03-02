@@ -1,5 +1,11 @@
 public class Hola {
-   public static void main (String[] args){
-    System.out.println("Hola, " + args[0]);
+  
+  static String nombre = "UN TIO"; 
+
+  public static void main (String[] args){
+    System.out.println("Hola, " + nombre);
+
+    
+
   }
 }
